@@ -1,0 +1,59 @@
+<?php
+
+namespace Russelcruz28\FilamentPageBuilder\Blocks;
+
+use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+
+class DividerBlock implements PageBlock
+{
+    public static function type(): string
+    {
+        return 'divider';
+    }
+
+    public static function label(): string
+    {
+        return __('page-builder::blocks.divider.label');
+    }
+
+    public static function icon(): ?string
+    {
+        return 'heroicon-o-minus';
+    }
+
+    public static function category(): string
+    {
+        return 'design';
+    }
+
+    public static function description(): string
+    {
+        return __('page-builder::blocks.divider.description');
+    }
+
+    public static function view(): string
+    {
+        return 'page-builder::components.divider';
+    }
+
+    /**
+     * @return array<int, string>
+     */
+    public static function fileFields(): array
+    {
+        return [];
+    }
+
+    public static function isVisible(): bool
+    {
+        return true;
+    }
+
+    /**
+     * @return array<int, mixed>
+     */
+    public static function schema(): array
+    {
+        return [];
+    }
+}
