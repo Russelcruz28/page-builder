@@ -3,18 +3,14 @@
 A drag-and-drop visual page builder for [Filament](https://filamentphp.com), storing page
 content as an ordered array of typed blocks in a single JSON column.
 
-Forked from [carljanzell/filament-page-builder](https://github.com/Darkify19/filament-page-builder)
-v0.4.2 by Carl Janzell (MIT, see `LICENSE`), with further changes by Russelcruz28. It runs on
-Filament 4.12.6+ and 5.x.
+It runs on Filament 4.12.6+ and 5.x.
 
 > **Status: the canvas is a nested layout editor.** Palette with layout
 > primitives (including Embed), drag into columns, a document outline, token style
 > inspector, inline plaintext editing, undo/redo, ghost recovery and an optimistic
 > save lock — all persisting to the same JSON the form editor uses. On a phone,
 > Design mode is a one-panel editor (Blocks / Page / Settings). Still to come:
-> rich text in place, an image picker, draft/publish and reusable sections. See
-> [ROADMAP.md](https://github.com/Darkify19/filament-page-builder/blob/main/ROADMAP.md) and the
-> [improvement pack](https://github.com/Darkify19/filament-page-builder/blob/main/docs/improvements/README.md).
+> rich text in place, an image picker, draft/publish and reusable sections.
 
 ## Why
 
@@ -272,4 +268,4 @@ privately, as [SECURITY.md](SECURITY.md) describes, rather than in a public issu
 
 ## Licence
 
-The MIT licence. See [LICENSE](LICENSE). Original work copyright Carl Janzell.
+The MIT licence. See [LICENSE](LICENSE).
