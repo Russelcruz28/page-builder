@@ -1,7 +1,7 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $body = is_string($data['body'] ?? null) ? $data['body'] : '';
     // A shortcode may return block markup (a list, a card), which a <p> cannot hold.

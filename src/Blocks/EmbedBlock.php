@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Closure;
 use Filament\Forms\Components\Select;
@@ -9,8 +9,8 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Utilities\Get;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Support\EmbedUrl;
 
 /**
  * An allowlisted iframe: a video, a map, a form, a slide deck.

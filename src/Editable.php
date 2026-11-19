@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 /**
  * A declaration that one of a block's fields may be edited directly on the page.

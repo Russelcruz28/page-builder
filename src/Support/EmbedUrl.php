@@ -1,9 +1,9 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Support;
+namespace Russelcruz28\PageBuilder\Support;
 
 use Throwable;
-use Russelcruz28\FilamentPageBuilder\BlockRegistry;
+use Russelcruz28\PageBuilder\BlockRegistry;
 
 /**
  * Turn whatever an editor pastes into an address a provider will actually let us frame.

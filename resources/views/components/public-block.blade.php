@@ -1,11 +1,11 @@
 @props(['block', 'blocks' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\BlockRegistry;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockStateNormaliser;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockTree;
+    use Russelcruz28\PageBuilder\BlockRegistry;
+    use Russelcruz28\PageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Support\BlockStateNormaliser;
+    use Russelcruz28\PageBuilder\Support\BlockStyle;
+    use Russelcruz28\PageBuilder\Support\BlockTree;
 
     $registry = app(BlockRegistry::class);
     $definition = $registry->find($block['type'] ?? null);

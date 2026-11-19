@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Contracts;
+namespace Russelcruz28\PageBuilder\Contracts;
 
 /**
  * A block that can hold other blocks.

@@ -1,12 +1,12 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\ToggleButtons;
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Editable;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Editable;
 
 /**
  * A title, H1 to H6, typed straight onto the page.

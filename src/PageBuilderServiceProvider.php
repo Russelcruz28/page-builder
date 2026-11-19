@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 
 class PageBuilderServiceProvider extends ServiceProvider
 {
-    public const PACKAGE = 'russelcruz28/filament-page-builder';
+    public const PACKAGE = 'russelcruz28/page-builder';
 
     public function register(): void
     {
@@ -54,7 +54,7 @@ class PageBuilderServiceProvider extends ServiceProvider
     {
         Blade::directive(
             'editable',
-            fn (string $expression): string => "<?php echo \Russelcruz28\FilamentPageBuilder\PageBuilder::editableAttributes({$expression}); ?>",
+            fn (string $expression): string => "<?php echo \Russelcruz28\PageBuilder\PageBuilder::editableAttributes({$expression}); ?>",
         );
     }
 

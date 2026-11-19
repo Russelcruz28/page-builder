@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Support;
+namespace Russelcruz28\PageBuilder\Support;
 
 use Illuminate\Support\Str;
 

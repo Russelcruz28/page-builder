@@ -1,10 +1,10 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\ToggleButtons;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 
 /**
  * Bulleted, numbered or ticked points, one per line.

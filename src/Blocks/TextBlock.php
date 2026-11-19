@@ -1,11 +1,11 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\Textarea;
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Editable;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Editable;
 
 /**
  * A text box you drop anywhere and type into.

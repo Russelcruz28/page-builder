@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Support;
+namespace Russelcruz28\PageBuilder\Support;
 
 /**
  * Free-form styling for one block: spacing, typography, colour, background, border, size.

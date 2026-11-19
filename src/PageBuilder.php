@@ -1,10 +1,10 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Js;
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
 
 /**
  * The rendering context a block's Blade component can ask about.

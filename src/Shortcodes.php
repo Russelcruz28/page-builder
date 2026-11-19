@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 use Closure;
 use Illuminate\Contracts\Support\Htmlable;

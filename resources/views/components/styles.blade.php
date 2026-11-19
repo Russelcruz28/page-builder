@@ -4,7 +4,7 @@
      has no height and a background video sits on top of the text instead of behind it. --}}
 @php
     try {
-        $href = \Filament\Support\Facades\FilamentAsset::getStyleHref('page-builder', \Russelcruz28\FilamentPageBuilder\PageBuilderServiceProvider::PACKAGE);
+        $href = \Filament\Support\Facades\FilamentAsset::getStyleHref('page-builder', \Russelcruz28\PageBuilder\PageBuilderServiceProvider::PACKAGE);
     } catch (\Throwable) {
         $href = null;
     }

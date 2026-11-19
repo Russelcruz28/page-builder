@@ -1,12 +1,12 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Components\Text;
 use Illuminate\Support\HtmlString;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\PageBuilder;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\PageBuilder;
 
 /**
  * Live content from the application, through a registered shortcode.

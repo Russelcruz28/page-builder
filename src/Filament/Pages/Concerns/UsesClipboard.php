@@ -1,11 +1,11 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns;
+namespace Russelcruz28\PageBuilder\Filament\Pages\Concerns;
 
 use Filament\Notifications\Notification;
 use Illuminate\Support\Str;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-use Russelcruz28\FilamentPageBuilder\Support\BlockTree;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Support\BlockTree;
 
 /**
  * Copy and paste: blocks between pages, and designs pasted in from elsewhere.

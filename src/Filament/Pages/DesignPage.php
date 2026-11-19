@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament\Pages;
+namespace Russelcruz28\PageBuilder\Filament\Pages;
 
 use Filament\Notifications\Notification;
 use Filament\Resources\Pages\Concerns\InteractsWithRecord;
@@ -11,17 +11,17 @@ use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
-use Russelcruz28\FilamentPageBuilder\BlockRegistry;
-use Russelcruz28\FilamentPageBuilder\Editable;
-use Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns\EditsBlockStyle;
-use Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns\PreviewsPage;
-use Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns\ResizesBlocks;
-use Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns\UsesClipboard;
-use Russelcruz28\FilamentPageBuilder\FilamentPageBuilderPlugin;
-use Russelcruz28\FilamentPageBuilder\PageBuilder;
-use Russelcruz28\FilamentPageBuilder\Support\BlockHistory;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStateNormaliser;
-use Russelcruz28\FilamentPageBuilder\Support\BlockTree;
+use Russelcruz28\PageBuilder\BlockRegistry;
+use Russelcruz28\PageBuilder\Editable;
+use Russelcruz28\PageBuilder\Filament\Pages\Concerns\EditsBlockStyle;
+use Russelcruz28\PageBuilder\Filament\Pages\Concerns\PreviewsPage;
+use Russelcruz28\PageBuilder\Filament\Pages\Concerns\ResizesBlocks;
+use Russelcruz28\PageBuilder\Filament\Pages\Concerns\UsesClipboard;
+use Russelcruz28\PageBuilder\FilamentPageBuilderPlugin;
+use Russelcruz28\PageBuilder\PageBuilder;
+use Russelcruz28\PageBuilder\Support\BlockHistory;
+use Russelcruz28\PageBuilder\Support\BlockStateNormaliser;
+use Russelcruz28\PageBuilder\Support\BlockTree;
 
 /**
  * The drag-and-drop canvas.

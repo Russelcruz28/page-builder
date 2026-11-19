@@ -1,8 +1,8 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\ListBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Blocks\ListBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $items = ListBlock::itemsFrom($data['items'] ?? null);
     $marker = array_key_exists($data['marker'] ?? '', ListBlock::MARKERS) ? $data['marker'] : 'bullet';

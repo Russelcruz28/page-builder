@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\CodeEditor;
 use Filament\Forms\Components\CodeEditor\Enums\Language;
@@ -8,8 +8,8 @@ use Filament\Schemas\Components\Tabs;
 use Filament\Schemas\Components\Tabs\Tab;
 use Filament\Schemas\Components\Text;
 use Throwable;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\FilamentPageBuilderPlugin;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\FilamentPageBuilderPlugin;
 
 /**
  * Hand-written HTML, CSS and JavaScript: animations, embeds a provider hands out as a

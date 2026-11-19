@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\ColorPicker;
 use Filament\Forms\Components\FileUpload;
@@ -10,10 +10,10 @@ use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Utilities\Get;
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Editable;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Editable;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
 
 class ImageBlock implements InlineEditable, PageBlock
 {

@@ -1,8 +1,8 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\SpacerBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Blocks\SpacerBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $height = is_string($data['height'] ?? null) && array_key_exists($data['height'], SpacerBlock::PRESETS) ? $data['height'] : 'md';
     $pixels = SpacerBlock::pixels($data);

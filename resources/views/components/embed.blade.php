@@ -1,9 +1,9 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\EmbedBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
-    use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
+    use Russelcruz28\PageBuilder\Blocks\EmbedBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Support\EmbedUrl;
 
     $editing = PageBuilder::isEditing();
     $src = EmbedBlock::src($data, $editing);

@@ -1,10 +1,10 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 use InvalidArgumentException;
-use Russelcruz28\FilamentPageBuilder\Contracts\Container;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Contracts\Container;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 
 /**
  * The single source of truth for which block types exist.

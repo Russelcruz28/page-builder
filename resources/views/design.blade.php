@@ -421,7 +421,7 @@
                         {{-- "intro" is an id, not a word: it must start with an ASCII letter
                              (BlockTree::isValidAnchor), so it is not translated, and the field
                              takes it without the #, which only the link uses. --}}
-                        <small class="fpb-panel-hint">{{ \Russelcruz28\FilamentPageBuilder\PageBuilder::lineWithMarkup('page-builder::chrome.anchor_hint', ['anchor' => '<code>#intro</code>']) }}</small>
+                        <small class="fpb-panel-hint">{{ \Russelcruz28\PageBuilder\PageBuilder::lineWithMarkup('page-builder::chrome.anchor_hint', ['anchor' => '<code>#intro</code>']) }}</small>
                     </label>
                 </div>
             @else

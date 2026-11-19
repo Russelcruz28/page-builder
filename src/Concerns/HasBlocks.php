@@ -1,10 +1,10 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Concerns;
+namespace Russelcruz28\PageBuilder\Concerns;
 
 use Illuminate\Support\Str;
-use Russelcruz28\FilamentPageBuilder\FilamentPageBuilderPlugin;
-use Russelcruz28\FilamentPageBuilder\Support\BlockTree;
+use Russelcruz28\PageBuilder\FilamentPageBuilderPlugin;
+use Russelcruz28\PageBuilder\Support\BlockTree;
 
 /**
  * Applied by the consuming application to whichever model stores page blocks.

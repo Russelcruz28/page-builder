@@ -1,7 +1,7 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $text = is_string($data['text'] ?? null) ? $data['text'] : '';
     $cite = is_string($data['cite'] ?? null) ? $data['cite'] : '';

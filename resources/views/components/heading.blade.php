@@ -1,8 +1,8 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\HeadingBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Blocks\HeadingBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $level = HeadingBlock::levelFor($data['level'] ?? null);
     $text = is_string($data['text'] ?? null) ? $data['text'] : '';

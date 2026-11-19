@@ -1,11 +1,11 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Grid;
-use Russelcruz28\FilamentPageBuilder\Contracts\Container;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Contracts\Container;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 
 /**
  * A row of columns that other blocks drop into.

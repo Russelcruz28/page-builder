@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns;
+namespace Russelcruz28\PageBuilder\Filament\Pages\Concerns;
 
 /**
  * The Preview button: the page as a visitor will see it, before it is saved.

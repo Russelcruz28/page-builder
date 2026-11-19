@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Closure;
 use Filament\Forms\Components\FileUpload;
@@ -8,9 +8,9 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
 use Filament\Schemas\Components\Grid;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Support\EmbedUrl;
 
 /**
  * A video file the site hosts itself, with a start time and playback options.

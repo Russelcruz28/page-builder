@@ -1,13 +1,13 @@
 {
-    "name": "russelcruz28/filament-page-builder",
-    "description": "Drag-and-drop visual page builder for Filament 4 and 5. Forked from carljanzell/filament-page-builder v0.4.2.",
+    "name": "russelcruz28/page-builder",
+    "description": "Drag-and-drop visual page builder for Filament 4 and 5.",
     "type": "library",
     "keywords": ["laravel", "filament", "filament-plugin", "livewire", "page-builder", "drag-and-drop"],
     "license": "MIT",
-    "homepage": "https://github.com/Russelcruz28/filament-page-builder",
+    "homepage": "https://github.com/Russelcruz28/page-builder",
     "support": {
-        "issues": "https://github.com/Russelcruz28/filament-page-builder/issues",
-        "source": "https://github.com/Russelcruz28/filament-page-builder"
+        "issues": "https://github.com/Russelcruz28/page-builder/issues",
+        "source": "https://github.com/Russelcruz28/page-builder"
     },
     "authors": [
         { "name": "Russelcruz28", "homepage": "https://github.com/Russelcruz28" },
@@ -15,11 +15,11 @@
     ],
     "require": { "php": "^8.3", "filament/filament": "^4.12.6 || ^5.0" },
     "require-dev": { "laravel/pint": "^1.27" },
-    "autoload": { "psr-4": { "Russelcruz28\\FilamentPageBuilder\\": "src/" } },
+    "autoload": { "psr-4": { "Russelcruz28\\PageBuilder\\": "src/" } },
     "scripts": { "lint": "vendor/bin/pint --test", "format": "vendor/bin/pint" },
     "config": { "sort-packages": true },
     "archive": { "exclude": ["/vendor", "/composer.lock", "/.DS_Store", "/.github"] },
-    "extra": { "laravel": { "providers": ["Russelcruz28\\FilamentPageBuilder\\PageBuilderServiceProvider"] } },
+    "extra": { "laravel": { "providers": ["Russelcruz28\\PageBuilder\\PageBuilderServiceProvider"] } },
     "minimum-stability": "stable",
     "prefer-stable": true
 }

@@ -1,9 +1,9 @@
 @props(['block', 'selectedId' => null])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockTree;
+    use Russelcruz28\PageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Support\BlockStyle;
+    use Russelcruz28\PageBuilder\Support\BlockTree;
 
     $settings = is_array($block['settings'] ?? null) ? $block['settings'] : [];
     $anchor = BlockTree::isValidAnchor($block['anchor'] ?? null) ? $block['anchor'] : null;

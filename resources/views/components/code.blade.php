@@ -1,8 +1,8 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\CodeBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Blocks\CodeBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $html = is_string($data['html'] ?? null) ? $data['html'] : '';
     $css = is_string($data['css'] ?? null) ? $data['css'] : '';

@@ -1,9 +1,9 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\ImageBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
-    use Russelcruz28\FilamentPageBuilder\Support\MediaUrl;
+    use Russelcruz28\PageBuilder\Blocks\ImageBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Support\MediaUrl;
 
     $url = MediaUrl::public($data['src'] ?? null);
     $overlay = ImageBlock::overlayStyle($data);

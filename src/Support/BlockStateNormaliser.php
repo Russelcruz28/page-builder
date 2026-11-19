@@ -1,11 +1,11 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Support;
+namespace Russelcruz28\PageBuilder\Support;
 
 use Filament\Forms\Components\RichEditor\RichContentRenderer;
 use Livewire\Features\SupportFileUploads\TemporaryUploadedFile;
 use Throwable;
-use Russelcruz28\FilamentPageBuilder\BlockRegistry;
+use Russelcruz28\PageBuilder\BlockRegistry;
 
 /**
  * Reconciles Filament's in-form state with the shape stored in the database.

@@ -1,4 +1,4 @@
-# Filament Page Builder
+# Page Builder
 
 A drag-and-drop visual page builder for [Filament](https://filamentphp.com), storing page
 content as an ordered array of typed blocks in a single JSON column.
@@ -37,11 +37,11 @@ Requires **PHP 8.3+** and **Filament 4.12.6+ or 5.x**. The package is not on Pac
 this repository to your app's `composer.json` first:
 
 ```json
-"repositories": [{ "type": "vcs", "url": "https://github.com/Russelcruz28/filament-page-builder" }]
+"repositories": [{ "type": "vcs", "url": "https://github.com/Russelcruz28/page-builder" }]
 ```
 
 ```bash
-composer require russelcruz28/filament-page-builder
+composer require russelcruz28/page-builder
 ```
 
 The service provider is auto-discovered. Publish the canvas assets. If your `composer.json`
@@ -54,7 +54,7 @@ php artisan filament:assets
 Register the plugin on a panel:
 
 ```php
-use Russelcruz28\FilamentPageBuilder\FilamentPageBuilderPlugin;
+use Russelcruz28\PageBuilder\FilamentPageBuilderPlugin;
 
 $panel->plugin(
     FilamentPageBuilderPlugin::make()
@@ -72,7 +72,7 @@ $panel->plugin(
 Apply the trait to the model that stores blocks:
 
 ```php
-use Russelcruz28\FilamentPageBuilder\Concerns\HasBlocks;
+use Russelcruz28\PageBuilder\Concerns\HasBlocks;
 
 class Page extends Model
 {
@@ -85,7 +85,7 @@ class Page extends Model
 Extend the packaged page and bind it to your resource:
 
 ```php
-use Russelcruz28\FilamentPageBuilder\Filament\Pages\DesignPage as BaseDesignPage;
+use Russelcruz28\PageBuilder\Filament\Pages\DesignPage as BaseDesignPage;
 
 class DesignPage extends BaseDesignPage
 {
@@ -146,8 +146,8 @@ A block can open its own text fields for editing directly on the canvas. Declare
 fields, then mark the matching element in your own markup:
 
 ```php
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
-use Russelcruz28\FilamentPageBuilder\Editable;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Editable;
 
 class HeroBlock implements PageBlock, InlineEditable
 {
@@ -177,7 +177,7 @@ block the current user may not author.
 ## Defining a block
 
 ```php
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 use Filament\Forms\Components\TextInput;
 
 class HeroBlock implements PageBlock
@@ -263,7 +263,7 @@ and block fixtures.
 
 ## Contributing
 
-Issues and pull requests are welcome on [GitHub](https://github.com/Russelcruz28/filament-page-builder). Report security problems
+Issues and pull requests are welcome on [GitHub](https://github.com/Russelcruz28/page-builder). Report security problems
 privately, as [SECURITY.md](SECURITY.md) describes, rather than in a public issue.
 
 ## Licence

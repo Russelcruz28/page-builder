@@ -1,14 +1,14 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns;
+namespace Russelcruz28\PageBuilder\Filament\Pages\Concerns;
 
 use Filament\Schemas\Schema;
 use Illuminate\Validation\ValidationException;
 use Throwable;
-use Russelcruz28\FilamentPageBuilder\Filament\StyleSchema;
-use Russelcruz28\FilamentPageBuilder\FilamentPageBuilderPlugin;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
+use Russelcruz28\PageBuilder\Filament\StyleSchema;
+use Russelcruz28\PageBuilder\FilamentPageBuilderPlugin;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Support\EmbedUrl;
 
 /**
  * The custom style layer on the canvas: the Style and Layout tabs, the alignment buttons

@@ -1,8 +1,8 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\SectionBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Blocks\SectionBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $columns = max(1, min(4, (int) ($data['columns'] ?? 2)));
     $ratio = SectionBlock::ratioFor($columns, $data['ratio'] ?? null);

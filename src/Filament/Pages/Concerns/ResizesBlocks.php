@@ -1,9 +1,9 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament\Pages\Concerns;
+namespace Russelcruz28\PageBuilder\Filament\Pages\Concerns;
 
-use Russelcruz28\FilamentPageBuilder\Blocks\SectionBlock;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Blocks\SectionBlock;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
 
 /**
  * Dragging a block's edges, and the edge between two of a section's columns.

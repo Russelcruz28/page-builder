@@ -1,8 +1,8 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 
 class DividerBlock implements PageBlock
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Support;
+namespace Russelcruz28\PageBuilder\Support;
 
 use Illuminate\Contracts\Session\Session;
 
@@ -18,7 +18,7 @@ use Illuminate\Contracts\Session\Session;
  */
 class BlockHistory
 {
-    public const KEY = 'filament-page-builder.history';
+    public const KEY = 'page-builder.history';
 
     public const LIMIT = 30;
 

@@ -1,11 +1,11 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\Blocks\VideoBlock;
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
-    use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-    use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
-    use Russelcruz28\FilamentPageBuilder\Support\MediaUrl;
+    use Russelcruz28\PageBuilder\Blocks\VideoBlock;
+    use Russelcruz28\PageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\Support\BlockStyle;
+    use Russelcruz28\PageBuilder\Support\EmbedUrl;
+    use Russelcruz28\PageBuilder\Support\MediaUrl;
 
     $editing = PageBuilder::isEditing();
     $src = MediaUrl::public(is_string($data['src'] ?? null) ? $data['src'] : null) ?? BlockStyle::url($data['url'] ?? null);

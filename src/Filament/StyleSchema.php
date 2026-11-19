@@ -1,6 +1,6 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Filament;
+namespace Russelcruz28\PageBuilder\Filament;
 
 use Closure;
 use Filament\Forms\Components\ColorPicker;
@@ -13,8 +13,8 @@ use Filament\Schemas\Components\Fieldset;
 use Filament\Schemas\Components\Grid;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Utilities\Get;
-use Russelcruz28\FilamentPageBuilder\Support\BlockStyle;
-use Russelcruz28\FilamentPageBuilder\Support\EmbedUrl;
+use Russelcruz28\PageBuilder\Support\BlockStyle;
+use Russelcruz28\PageBuilder\Support\EmbedUrl;
 
 /**
  * The inspector's Style and Layout tabs: every field of the custom style layer.

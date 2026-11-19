@@ -1,8 +1,8 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Contracts;
+namespace Russelcruz28\PageBuilder\Contracts;
 
-use Russelcruz28\FilamentPageBuilder\Editable;
+use Russelcruz28\PageBuilder\Editable;
 
 /**
  * A block whose fields can be edited directly on the canvas as well as in the inspector.

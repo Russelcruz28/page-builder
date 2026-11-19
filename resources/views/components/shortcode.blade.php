@@ -1,7 +1,7 @@
 @props(['data' => []])
 
 @php
-    use Russelcruz28\FilamentPageBuilder\PageBuilder;
+    use Russelcruz28\PageBuilder\PageBuilder;
 
     $code = is_string($data['code'] ?? null) ? $data['code'] : '';
     $shortcodes = PageBuilder::shortcodes();

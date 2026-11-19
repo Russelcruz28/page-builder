@@ -1,25 +1,25 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder;
+namespace Russelcruz28\PageBuilder;
 
 use Closure;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Throwable;
-use Russelcruz28\FilamentPageBuilder\Blocks\ButtonBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\CodeBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\DividerBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\EmbedBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\HeadingBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\ImageBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\ListBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\QuoteBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\SectionBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\ShortcodeBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\SpacerBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\TextBlock;
-use Russelcruz28\FilamentPageBuilder\Blocks\VideoBlock;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Blocks\ButtonBlock;
+use Russelcruz28\PageBuilder\Blocks\CodeBlock;
+use Russelcruz28\PageBuilder\Blocks\DividerBlock;
+use Russelcruz28\PageBuilder\Blocks\EmbedBlock;
+use Russelcruz28\PageBuilder\Blocks\HeadingBlock;
+use Russelcruz28\PageBuilder\Blocks\ImageBlock;
+use Russelcruz28\PageBuilder\Blocks\ListBlock;
+use Russelcruz28\PageBuilder\Blocks\QuoteBlock;
+use Russelcruz28\PageBuilder\Blocks\SectionBlock;
+use Russelcruz28\PageBuilder\Blocks\ShortcodeBlock;
+use Russelcruz28\PageBuilder\Blocks\SpacerBlock;
+use Russelcruz28\PageBuilder\Blocks\TextBlock;
+use Russelcruz28\PageBuilder\Blocks\VideoBlock;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
 
 class FilamentPageBuilderPlugin implements Plugin
 {

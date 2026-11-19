@@ -1,13 +1,13 @@
 <?php
 
-namespace Russelcruz28\FilamentPageBuilder\Blocks;
+namespace Russelcruz28\PageBuilder\Blocks;
 
 use Closure;
 use Filament\Forms\Components\TextInput;
-use Russelcruz28\FilamentPageBuilder\Contracts\InlineEditable;
-use Russelcruz28\FilamentPageBuilder\Contracts\PageBlock;
-use Russelcruz28\FilamentPageBuilder\Editable;
-use Russelcruz28\FilamentPageBuilder\Support\SafeUrl;
+use Russelcruz28\PageBuilder\Contracts\InlineEditable;
+use Russelcruz28\PageBuilder\Contracts\PageBlock;
+use Russelcruz28\PageBuilder\Editable;
+use Russelcruz28\PageBuilder\Support\SafeUrl;
 
 class ButtonBlock implements InlineEditable, PageBlock
 {
